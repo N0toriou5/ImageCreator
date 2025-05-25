@@ -30,4 +30,4 @@ pipe.to(device)
 prompt = input('Image prompt:' )
 image = pipe(prompt).images[0]
 # Save image to file
-image.save(project + "_output.png")
+image.save(".outputs/" + project + "_output.png")
